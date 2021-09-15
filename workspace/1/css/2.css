@@ -1,0 +1,14 @@
+.parrafo,
+.parrafo-1,
+.parrafo-2{
+    background-color: yellow;
+}
+
+div .parrafo-3{
+    background-color: red;
+}
+
+.text-2 + .parrafo-2{
+    background-color: tomato;
+}
+
