@@ -1,0 +1,23 @@
+.menu{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+body{
+    background-color: royalblue;
+}
+
+
+@media screen and (min-width: 480px){
+    body{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    body{
+        background-color: green;
+    }
+}
