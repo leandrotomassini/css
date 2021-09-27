@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact-form{
+    font-size: 25px;
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact-form__h2{
+    font-size: 2em;
+    font-family: georgia;
+    line-height: 1.9;
+    font-weight: normal;
+    font-stretch: normal;
+    
+}
