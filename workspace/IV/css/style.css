@@ -1,0 +1,28 @@
+body{
+    background-color: #333;
+}
+
+.title {
+    background-color: blue;
+}
+
+.title {
+    color: cyan;
+    font-size: 10px;
+}
+
+.text {
+    color: red;
+}
+
+.link{
+    color: inherit;
+}
+
+.list{
+    color: indianred;
+}
+
+.list-item-extra{
+    color: initial;
+}
