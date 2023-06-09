@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .shadow {
+            background: lightgray;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        .circle {
+            background-color: #4158D0;
+            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        .circle:hover {
+            transform: translate(-20px, 20px);
+        }
+
+        .marquee-container {
+            overflow: hidden;
+        }
+
+        .marquee {
+            white-space: nowrap;
+            animation: marquee 40s linear infinite;
+        }
+
+        .marquee span {
+            display: inline-block;
+            padding-right: 1rem;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shadow">
+        <div class="circle"></div>
+    </div>
+
+    <div class="marquee-container">
+        <div class="marquee">
+            <span>Quiero aprender a programar con Python</span>
+            <span>como cambiar de empleo</span>
+            <span>Crear una página web</span>
+            <span>quiero perder el miedo a hablar en público</span>
+        </div>
+    </div>
+</body>
+
+</html>
